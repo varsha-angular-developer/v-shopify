@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg navbar bg-primary">
+  <div class="container">
+    <a class="navbar-brand"  href="#"> <i class="fas fa-shopping-bag"></i>Shopify</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+      
+        <li class="nav-item">
+          <a class="nav-link"  [routerLink]="['']">Products</a>
+        </li>
+       
+       
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['cart']" >
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<router-outlet></router-outlet>
+
+<footer class="footer bg-primary text-light"> 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p>&copy; varsha_Dhokane_2024 Shopify. All rights reserved.</p>
+      </div>
+      <div class="col-md-6 text-md-right">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#" class="text-light">Privacy Policy</a></li>
+          <li class="list-inline-item"><a href="#" class="text-light">Terms of Service</a></li>
+          <li class="list-inline-item"><a href="#" class="text-light">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer> 

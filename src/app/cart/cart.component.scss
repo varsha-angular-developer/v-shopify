@@ -1,0 +1,35 @@
+
+.table {
+    width: 100%;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .table th,
+    .table td {
+      display: block;
+      width: 100%;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+      padding: 8px;
+    }
+    
+    .table td:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  
+    .table th {
+      display: none;
+    }
+  }
+
+  .center {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+
+  .btn-primary {
+    margin-top: 20px;
+  }
+  
